@@ -1,50 +1,22 @@
-# Welcome to your Expo app 👋
+# 作業1
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 第一種TextInput判斷 
+顯示即時顯示輸入的號碼
+根據在TextInput內輸入的值，做文字的output即時顯示！
+像是輸入1234，底下就直接顯示1234。
+但希望大家在輸入號碼之後，顯示的值是不只那些輸入的文字。
+假如是輸入電話號碼的話
+0912345678
+我就會去限定電話號碼的長度，並且顯示說
+您輸入的手機號碼是：0912345678
+提示：會使用到state喔！顯示部分用Text來做顯示。
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 第二種 TextInput判斷 
+顯示是否是正確判斷
+前面有教學到state的判斷，所以可以試試看，這個輸入值有一個正確的值，如果輸入錯誤的話，會顯示什麼文字？那如果輸入對了，又會顯示什麼？
+假如是輸入電話號碼的話
+0912345678
+如果輸入錯誤，就顯示：
+手機輸入錯誤！
+如果輸入成功，就顯示：
+輸入成功！
